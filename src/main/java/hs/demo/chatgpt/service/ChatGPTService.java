@@ -16,8 +16,7 @@ import org.springframework.stereotype.Service;
 public class ChatGPTService {
 
     private static final String API_URL = "https://api.openai.com/v1/completions";
-    private static final String API_KEY1 = "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";
-    private static final String API_KEY = "sk-proj-RArSyPpc79xqAeY9YKgPT3BlbkFJNcakczUksY1L0Q0Ju7Pl";
+    private static final String API_KEY = "api-key";
 
     ObjectMapper mapper= new ObjectMapper();
 
